@@ -4,7 +4,7 @@
 # about: Allow staff to change post owner in the review queue 
 # version: 0.1
 # author: Faizaan Gagan
-# url: https://github.com/paviliondev/discourse-calendar
+# url: https://github.com/paviliondev/discourse-change-owner
 
 enabled_site_setting :change_owner_enabled
 
