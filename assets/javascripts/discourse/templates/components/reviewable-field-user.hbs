@@ -1,0 +1,6 @@
+<label>{{i18n 'change_owner.title'}}</label>
+{{user-selector 
+  usernames=value 
+  single=true 
+  onChangeCallback=(action "userChanged")
+  excludeCurrentUser=true}}
