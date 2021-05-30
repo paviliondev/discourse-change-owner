@@ -2,11 +2,13 @@ import Component from "@ember/component";
 
 export default Component.extend({
   actions: {
-    userChanged(previouslySelected, selected) {
+    userChanged(selectedUsername) {
+      this.set("value", selectedUsername[0]);
+
       this.valueChanged &&
         this.valueChanged({
           target: {
-            value: selected[0],
+            value: selectedUsername[0],
           },
         });
     },
