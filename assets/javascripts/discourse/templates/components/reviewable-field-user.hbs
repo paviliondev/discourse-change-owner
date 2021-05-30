@@ -1,6 +1,9 @@
-<label>{{i18n 'change_owner.title'}}</label>
-{{user-selector 
-  usernames=value 
-  single=true 
-  onChangeCallback=(action "userChanged")
-  excludeCurrentUser=true}}
+<label>{{i18n "change_owner.title"}}</label>
+{{email-group-user-chooser
+  value=value
+  options=(hash
+    maximum=1
+  )
+  onChange=(action "userChanged")
+  includeStagedUsers=true
+}}

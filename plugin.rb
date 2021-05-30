@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 # name: discourse-change-owner
-# about: Allow staff to change post owner in the review queue 
+# about: Allow staff to change post owner in the review queue
 # version: 0.1
 # author: Faizaan Gagan
 # url: https://github.com/paviliondev/discourse-change-owner
